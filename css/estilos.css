@@ -20,6 +20,8 @@ header{
     display: block;
     padding: 12px;
     margin-right: 200px;
+    font-family: 'Montserrat Light', sans-serif;
+    font-weight: 300;
 }
 header .logo{
     width: 25%;
@@ -36,6 +38,7 @@ header .container-fluid{
 
 }
 .navbar{
+
     padding: 0.5rem 0rem 3rem 49rem;
     position: relative;
     margin: -4.5rem 0rem;
@@ -45,6 +48,8 @@ li{
 }
 nav ul li a{
     color: #ffffff;
+    font-family: 'Montserrat Light', sans-serif;
+    font-weight: 300;
 }
 
 #slider{
@@ -311,6 +316,10 @@ footer .redes{
 }
 footer #redesAcom{
     margin-top: 2%;
+
+}
+.footerTop li{
+    padding-left: 3px;
 
 }
 .footerBott {

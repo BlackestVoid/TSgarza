@@ -153,7 +153,7 @@
             <div class="col-sm-4">
                 <div class="flex d-flex align-items-center justify-content-center serv3">
                     <div class="servCentrar">
-                        <h4>ESTUDIOS SOCIOECNÓMICOS</h4>
+                        <h4>ESTUDIOS SOCIOECONÓMICOS</h4>
                     </div>
                 </div>
             </div>
