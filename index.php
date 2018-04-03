@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,300,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Document</title>
 </head>
@@ -124,6 +125,191 @@
         </div>
     </div>
 </section>
+<section class="serviciosContenedor">
+    <div class="container" id="servicios">
+        <div class="row">
+            <div class="col-sm-4 offset-sm-4">
+                <h2>Nuestro Servicios</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="flex d-flex align-items-center justify-content-center serv1">
+                    <div class="servCentrar">
+                        <h4>ADMINISTRACIÓN DE NÓMINA</h4>
+                        <p>CREAMOS UNA ESTRATÉGIA QUE OPTIMIZE
+                            LA ADMINISTRACIÓN DE SU EMPRESA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flex d-flex align-items-center justify-content-center serv2">
+                    <div class="servCentrar">
+                        <h4>SELECCIÓN Y RECLUTAMIENTO</h4>
+                            <h5>DE PERSONAL</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flex d-flex align-items-center justify-content-center serv3">
+                    <div class="servCentrar">
+                        <h4>ESTUDIOS SOCIOECNÓMICOS</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flex d-flex align-items-center justify-content-center serv4">
+                    <div class="servCentrar">
+                        <h4>REGISTROS CONTABLES</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flex d-flex align-items-center justify-content-center serv5">
+                    <div class="servCentrar">
+                        <h4>ESTRATÉGIAS FISCALES</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="flex d-flex align-items-center justify-content-center serv6">
+                    <div class="servCentrar">
+                        <h4>GESTORIA Y REGISTRO</h4>
+                        <h5>DE PERSONAL</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="cafe">
+    <div class="container" id="tasa">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>CONÉCTATE CON NUESTRA ACCOUNTING APP</h1>
+                <p>Ingresa a nuestra aplicación para obtener toda tu documentación</p>
+                <a href="/" class="btn btn-ts">VER MÁS</a>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<section id="numeros">
+    <div class="container" id="ciudades">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row text-center">
+                    <div class="col-sm-2 offset-1 col-xs-12">
+                        <h4>CANCÚN</h4>
+                        <p>(998) 206-3254</p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <h4>TIJUANA</h4>
+                        <p>(664) 615-8035</p>
+
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <h4>GUADALAJARA</h4>
+                        <p>(664) 615-8035</p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <h4>MONTERREY</h4>
+                        <p>(664) 615-8035</p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <h4>MÉXICO D.F</h4>
+                        <p>(664) 615-8035</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacto">
+    <div class="container-fluid">
+        <div class="row" id="acomodar">
+            <div class="col-sm-6" id="formulario">
+                <h1>CONTÁCTANOS</h1>
+                <form action="">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Número Telefónico</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Comentario</label>
+                        <textarea class="form-control" name="" id="" cols="30" rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-ts">Enviar</button>
+                </form>
+
+            </div>
+            <div class="col-sm-6" id="oficina">
+                <h4>OFICINAS CORPORATIVAS</h4>
+                <p>Calle Chilam Balam 248 <br>
+                    SM-50 Fracc. Lomas Virreyes<br>
+                    C.P. 77533<br>
+                    Cancún Quintana Roo.</p>
+                <p>INFO@TSDELAGARZA.COM</p>
+                <span id="numOficina">(998) 206-3256</span>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footerTop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/logo.png" alt="" id="logoFoot">
+                    <p>Sed et erat ut nisl laoreet sollicitudin ut non nulla. Cras vehicula ultrices mauris et semper. Nulla ut rutrum lacus. Sed in dictum quam. In a risus pharetra diam facilisis sollicitudin. Pellentesque eu est at diam congue ultricies. Cras ac sapien a odio tempor volutpat. Suspendisse ante neque, faucibus sit amet tellus eu, dapibus bibendum turpis. Phasellus eu pharetra leo, non euismod arcu. Suspendisse interdum fermentum orci quis venenatis.</p>
+
+                </div>
+                <div class="col-md-2 offset-1 col-xs-6" id="redesAcom">
+                    <h4>REDES SOCIALES</h4>
+                    <ul class="list-inline">
+                        <li class="redes">
+                            <img src="img/twitter.jpg" alt="">
+                        </li>
+                        <li class="redes">
+                            <img src="img/face.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 offset-1 col-xs-6">
+                    <h4>SERVICIOS</h4>
+                    <ul class="servFooter">
+                        <li>Administración de Nómina</li>
+                        <li>Selección y Reclutamiento de personal</li>
+                        <li>Estudios Socioeconómicos</li>
+                        <li>Registros Contables</li>
+                        <li>Estrategias Fiscales</li>
+                        <li>Gestoría y Registro de Marca</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerBott">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright - TS &amp; DE LA GARZA Consultores</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>

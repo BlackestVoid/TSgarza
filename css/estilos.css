@@ -4,7 +4,7 @@
 }
 header{
     width: 100%;
-    height: 1045px;
+    height: 704px;
     position: relative;
 }
 .topHeader{
@@ -49,7 +49,7 @@ nav ul li a{
 
 #slider{
     width:100%;
-    height: 999px;
+    height: 657px;
     background: url('../img/slide1.jpg');
     background-size: cover ;
     background-repeat: no-repeat;
@@ -58,33 +58,34 @@ nav ul li a{
 }
 #contenedorNosotros{
     width: 100%;
-    height: 834px;
+    height: 683px;
     background: url(../img/bgnosotros.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #texto{
-    margin-top: 15%;
+    margin-top: 13%;
 }
 #contenedorNosotros h2{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #fefefe;
     font-size: 48px;
 }
 #contenedorNosotros h1{
     font-family: 'Montserrat Black', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     color: #0050a2;
 }
 #contenedorNosotros h3{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
     color: #ffffff;
     font-size: 40px;
 }
 #contenedorNosotros p{
+    font-weight: 500;
     color: #ffffff;
     text-align: justify;
 }
@@ -107,4 +108,218 @@ nav ul li a{
 }
 .col-md-offset-1{
     margin-left: 8.33333%;
+}
+.serviciosContenedor{
+    background-color: #f6f6f6;
+}
+#servicios h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #666666;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.flex{
+    height: 233px;
+    margin-bottom: 40px;
+
+}
+.serv1{
+    background: url("../img/servicio1.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.serv2{
+    background: url("../img/servicio2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serv3{
+    background: url("../img/servicio3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serv4{
+    background: url("../img/servicio4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serv5{
+    background: url("../img/servicio5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serv6{
+    background: url("../img/servicio6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.flex h4{
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+}
+.flex h5{
+    font-family: 'Montserrat Light', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+.flex p{
+    font-family:'Montserrat Light', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+#cafe{
+    width: 100%;
+    height: 700px;
+    background: url(../img/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#cafe h1, p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#tasa{
+    position: relative;
+    top:40%;
+}
+.btn-ts{
+    color: #fff;
+    background-color: #edaa3d;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 0;
+}
+#numeros{
+    width: 100%;
+    height: 251px;
+    background: url(../img/naranja.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ciudades{
+    position: relative;
+    top: 35%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#numeros h4, p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+#numeros h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+#numeros p{
+    font-weight: 100;
+}
+#contacto h1{
+    color: #666666;
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 700;
+}
+#contacto label{
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto button{
+    margin-left: 40%;
+}
+#formulario{
+    margin-top: 5%;
+}
+#oficina{
+    margin-top: 10%;
+}
+#oficina h4{
+    direction: rtl;
+    text-align: justify;
+    color: #666666;
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+}
+#oficina p{
+    font-family: 'Montserrat Thin', sans-serif;
+    color: #666666;
+    font-weight: 100;
+    font-size: 16px;
+    direction: rtl;
+    text-align: justify;
+
+}
+#numOficina{
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: 700;
+    color: #666666;
+    font-size: 16px;
+    padding-left: 80%;
+
+}
+#acomodar{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #2a3944;
+    margin-top: 5%;
+}
+.footerTop p{
+    font-family: 'Montserrat Thin', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+footer h4{
+    padding-top: 27%;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+}
+#logoFoot{
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+.servFooter{
+    font-family: 'Montserrat Thin', sans-serif;
+    font-weight: 100;
+    list-style-image: url("../img/ts.png");
+    color: #ffffff;
+}
+#redes{
+    float: left;
+}
+footer .redes{
+    display: inline-block;
+    padding-right: .5rem;
+}
+footer #redesAcom{
+    margin-top: 2%;
+
+}
+.footerBott {
+    background-color: #2c4150;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.footerBott p{
+    color: #edaa3d;
+    font-family: 'Montserrat Thin', sans-serif;
+    font-weight: 100;
 }
